@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    dbg!(std::env::current_dir().unwrap());
 }
 
 #[cfg(test)]
